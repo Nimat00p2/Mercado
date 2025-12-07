@@ -1,5 +1,5 @@
 
-from utilitarios import (
+from mercado_2_0_pack.utilitarios import (
     limpar_tela,
     numero_int_deci,
     pesquisar_codigo,
@@ -30,4 +30,5 @@ def alterar_preco_estoque():
         valor, opcao = preco_estoque()
         produto[opcao] = valor
         print(f'{opcao.title()} de {produto['nome']} foi alterado com sucesso...')
+
     return
