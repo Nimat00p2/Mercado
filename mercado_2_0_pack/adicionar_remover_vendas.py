@@ -1,5 +1,5 @@
 
-from utilitarios import (
+from mercado_2_0_pack.utilitarios import (
     limpar_tela,
     numero_int_deci,
     pesquisar_codigo,
@@ -33,3 +33,4 @@ def adicionar_remover_vendas():
         print(texto)
         formatacao_total(produto)
         return
+
