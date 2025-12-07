@@ -1,5 +1,5 @@
 
-from utilitarios import (
+from mercado_2_0_pack.utilitarios import (
     limpar_tela,
     pesquisar_codigo,
     formatacao_total,
@@ -90,3 +90,4 @@ def mostrar_produtos():
         else:
             print('Opção errada')
             continue
+
