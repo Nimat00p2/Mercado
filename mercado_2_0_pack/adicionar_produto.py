@@ -1,5 +1,5 @@
 
-from utilitarios import (
+from mercado_2_0_pack.utilitarios import (
     random,
     limpar_tela,
     numero_int_deci,
@@ -79,4 +79,5 @@ def adicionar_produto():
     novo_produto = criar_produto()
     produtos.append(novo_produto)
     print(f'{novo_produto['nome']} foi adicionado com sucesso...')
+
 
