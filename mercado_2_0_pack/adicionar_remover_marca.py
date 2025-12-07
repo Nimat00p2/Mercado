@@ -1,5 +1,5 @@
 
-from utilitarios import (
+from mercado_2_0_pack.utilitarios import (
     limpar_tela,
     nome_informa,
     marcas_existentes,
@@ -36,4 +36,5 @@ def adicionar_remover_marca():
             print('Marca não existe...')
             return
         aplicar(marca_lista, marca_existe, nome, texto)
+
         return
