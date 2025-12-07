@@ -11,7 +11,7 @@ from mercado_2_0_pack.utilitarios import (
     CATEGORIAS,
     MEDIDAS,
 )
-from adicionar_remover_marca import adicionar_remover_marca
+from mercado_2_0_pack.adicionar_remover_marca import adicionar_remover_marca
 
 def adicionar_produto():
 
@@ -79,5 +79,6 @@ def adicionar_produto():
     novo_produto = criar_produto()
     produtos.append(novo_produto)
     print(f'{novo_produto['nome']} foi adicionado com sucesso...')
+
 
 
