@@ -18,11 +18,6 @@ def adicionar_produto():
 # Adicionar  m_t_c_m    m = marca / t = tipo / c = categoria / m = medida
     def adicionar_m_t_c_m(m_t_c_m, nome):
         while True:
-            if marcas == []:
-                adicionar_remover_marca()
-                continue
-            break
-        while True:
             print(*m_t_c_m, sep=' | ')
             variavel = input(f'Informe {nome}: ').lower().title().replace(' ', '-')
             limpar_tela()
@@ -79,6 +74,7 @@ def adicionar_produto():
     novo_produto = criar_produto()
     produtos.append(novo_produto)
     print(f'{novo_produto['nome']} foi adicionado com sucesso...')
+
 
 
 
